@@ -9,7 +9,7 @@
 2. [Installasi GRAFANA](#2-Installasi-grafana)
 
 ## 1.Installasi APACHE2
-### #1.1 Instalasi
+### #1. Instalasi
 **Langkah 1:Perbarui daftar paket dengan perintah**
 ```
 sudo apt update
