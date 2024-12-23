@@ -8,7 +8,7 @@
 1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-Installasi-grafana)
 
-# 1.Installasi APACHE2
+# 1. Installasi APACHE2
 ### 1. Instalasi
 **Langkah 1:Perbarui daftar paket dengan perintah**
 ```
