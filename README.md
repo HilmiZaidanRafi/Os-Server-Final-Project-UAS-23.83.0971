@@ -121,9 +121,28 @@ scrape_configs:
 ```
 sudo nano /etc/apache2/mods-available/status.conf
 ```
-- <Location "/server-status">
+- ubah pada bagian "Require"
+```
+<Location "/server-status">
     SetHandler server-status
     Require local
 </Location>
+```
 
-**Langkah 5:
+**Langkah 5:Aktifkan mod_status Apache**
+```
+sudo a2enmod status
+sudo systemctl restart apache2
+```
+
+**Langkah 6:Restart Layanan
+```
+sudo systemctl restart prometheus
+```
+
+*Langkah 7:Verifikasi Status Layanan
+```
+sudo systemctl status prometheus
+sudo systemctl status grafana-server
+sudo systemctl status prometheus-node-exporter
+```
