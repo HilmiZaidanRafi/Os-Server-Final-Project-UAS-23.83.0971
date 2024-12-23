@@ -8,7 +8,7 @@
 1. [Installasi APACHE2](#1-Installasi-apache2)
 2. [Installasi GRAFANA](#2-Installasi-grafana)
 
-## 1.Installasi APACHE2
+# 1.Installasi APACHE2
 ### #1. Instalasi
 **Langkah 1:Perbarui daftar paket dengan perintah**
 ```
@@ -59,7 +59,7 @@ sudo ufw enable
 sudo ufw status
 ```
 
-## 2.Installasi GRAFANA
+# 2.Installasi GRAFANA
 **Langkah 1:Install grafana**
 ```
 sudo apt install -y software-properties-common
