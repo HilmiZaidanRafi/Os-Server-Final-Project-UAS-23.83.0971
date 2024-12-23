@@ -75,7 +75,7 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 ```
 
-# 3. Installasi MYSQL
+# 3. Installasi PROMETHEUS
 **Langkah 1:Install prometheus**
 ```
 sudo apt update
