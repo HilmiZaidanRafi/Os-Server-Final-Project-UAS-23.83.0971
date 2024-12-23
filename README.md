@@ -7,7 +7,7 @@
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-installasi-grafana)
-3. [Installasi Prometheus](#3-installasi-prometheus)
+3. [Installasi PROMETHEUSs](#3-installasi-prometheus)
 
 # 1. Installasi APACHE2
 ### 1. Instalasi
