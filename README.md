@@ -59,7 +59,7 @@ sudo ufw enable
 sudo ufw status
 ```
 
-# 2.Installasi GRAFANA
+# 2. Installasi GRAFANA
 **Langkah 1:Install grafana**
 ```
 sudo apt install -y software-properties-common
