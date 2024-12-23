@@ -5,8 +5,12 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
-1. [Installasi OPEN SSH SERVER](#1-Installasi-OPEN-SSH-SERVER)
-2. [Installasi MY-SQL SERVER](#2-Installasi-MY-SQL-SERVER)
-3. [Installasi APACHE2](#3-Installasi-APACHE2)
-4. [Installasi DATABASE SERVER](#4-Installasi-DATABASE-SERVER)
-5. [Installasi SAMBA](#5-Installasi-SAMBA)
+1. [Installasi APACHE2](#1-Installasi-apache2)
+2. [Installasi NGINX](#2-Installasi-nginx)
+3. [Installasi GRAFANA](#3-Installasi-grafana)
+
+## 1.Installasi APACHE2
+
+## 2.Installasi NGINX
+
+## 3.Installasi GRAFANA
