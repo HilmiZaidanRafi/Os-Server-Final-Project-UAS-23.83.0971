@@ -7,7 +7,8 @@
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-installasi-grafana)
-3. [Installasi PROMETHEUSs](#3-installasi-prometheus)
+3. [Installasi PROMETHEUS](#3-installasi-prometheus)
+4. [Installasi REDIS](#4-installasi-redis)
 
 # 1. Installasi APACHE2
 ### 1. Instalasi
@@ -147,3 +148,55 @@ sudo systemctl status prometheus
 sudo systemctl status grafana-server
 sudo systemctl status prometheus-node-exporter
 ```
+# 1. Installasi Redis
+**Langkah 1: Apdet Paket**
+```
+sudo apt update
+```
+
+**Langkah 2: Install redis server**
+```
+sudo apt install redis-server -y
+```
+
+**Langkah 3: Konfigurasi Redis**
+```
+sudo nano /etc/redis/redis.conf
+```
+
+**Langkah 4: Mulai dan Aktifkan Layanan Redis**
+```
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+```
+
+**Langkah 5: Verifikasi Status Redis**
+```
+sudo systemctl status redis-server
+```
+
+**Langkah 6: Instal Modul PHP Redis**
+## Integrasi Apache2 dengan Redis
+```
+sudo apt install php-redis -y
+```
+**Langkah 7: Restart Apache2**
+```
+sudo systemctl restart apache2
+```
+**Langkah 8: Tes Koneksi Redis dari PHP**
+```
+sudo nano /var/www/server1/testredis.php
+```
+- isikan:
+  ```
+  <?php $redis = new Redis();
+   $redis->connect('127.0.0.1', 6379);
+   echo "Koneksi Redis berhasil";
+  ?>
+  ```
+  **Langkah 9: tes pada browser**
+  - http://(ip server)/index.html
+  ```
+  http://192.168.32.133/index.html
+  ```
