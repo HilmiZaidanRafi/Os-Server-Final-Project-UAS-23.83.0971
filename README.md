@@ -6,7 +6,7 @@
 
 ## Daftar Isi
 1. [Installasi APACHE2](#1-Installasi-apache2)
-2. [Installasi GRAFANA](#3-Installasi-grafana)
+2. [Installasi GRAFANA](#2-Installasi-grafana)
 
 ## 1.Installasi APACHE2
 ### #1.1 Instalasi
