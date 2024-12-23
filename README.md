@@ -35,6 +35,7 @@ git clone https://github.com/username/repository.git
 ```
 sudo nano /etc/apache2/sites-available/server1.conf
 ```
+```
 <VirtualHost *:80>
   ServerAdmin admin@192.168.100.52
   DocumentRoot /var/www/server1/Penjualan-Tiket-Konser-0971.git
@@ -42,6 +43,7 @@ sudo nano /etc/apache2/sites-available/server1.conf
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
+```
 
 untuk simpan tekan ctrl + o trus enter dan ctrl + x untuk keluar
 
