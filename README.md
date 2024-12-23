@@ -6,8 +6,7 @@
 
 ## Daftar Isi
 1. [Installasi APACHE2](#1-Installasi-apache2)
-2. [Installasi NGINX](#2-Installasi-nginx)
-3. [Installasi GRAFANA](#3-Installasi-grafana)
+2. [Installasi GRAFANA](#3-Installasi-grafana)
 
 ## 1.Installasi APACHE2
 ### #1.1 Instalasi
@@ -22,19 +21,40 @@ sudo apt install apache2 -y
 ```
 - samakan dengan foto di bawah
 
-**Langkah 3:Memulai layanan server apahe2 dengan perintah**
+**Langkah 3:Membuat direktori**
 ```
-sudo systemctl start apache2
+sudo mkdir /var/www/server1
 ```
-**Langkah 4:Lakukan pengecekan ip addres ubuntu server dengan perintah**
+**Langkah 4:Cloning website yang ada di github**
 ```
- ip add
+git clone https://github.com/username/repository.git
 ```
-### 1.2 Configurasi
-**Langkah 5:Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
-- contoh ip saya:192.168.1.3
-  ![23](https://github.com/user-attachments/assets/a90e2a6c-dd81-4b99-a381-a4eb3c1e3f4b)
-  
-## 2.Installasi NGINX
+- contoh git clone https://github.com/HilmiZaidanRafi/Penjualan-Tiket-Konser-0971.git
 
-## 3.Installasi GRAFANA
+**Langkah 5:Konfigurasi Apache2**
+```
+sudo nano /etc/apache2/sites-available/server1.conf
+```
+<VirtualHost *:80>
+  ServerAdmin admin@192.168.100.52
+  DocumentRoot /var/www/server1/Penjualan-Tiket-Konser-0971.git
+  ServerName 192.168.100.52
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+untuk simpan tekan ctrl + o trus enter dan ctrl + x untuk keluar
+
+**Langkah 6:Aktifkan Virtual Host**
+```
+sudo a2ensite server1.conf
+sudo systemctl reload apache2
+```
+**Langkah 7:Buka Port**
+```
+sudo ufw allow 80/tcp
+sudo ufw enable
+sudo ufw status
+```
+
+## 2.Installasi GRAFANA
