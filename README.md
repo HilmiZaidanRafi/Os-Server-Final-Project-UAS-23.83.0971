@@ -5,7 +5,7 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
-1. [Installasi APACHE2](#1.-Installasi-apache2)
+1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-Installasi-grafana)
 
 # 1.Installasi APACHE2
