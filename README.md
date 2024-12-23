@@ -74,3 +74,56 @@ sudo apt install grafana
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 ```
+
+# 3. Installasi MYSQL
+**Langkah 1:Install prometheus**
+```
+sudo apt update
+sudo apt install -y prometheus
+```
+
+**Langkah 2:Install Node Exporter**
+```
+sudo apt install -y prometheus-node-exporter
+```
+
+**Langkah 3:Install Node Exporter**
+```
+sudo apt install -y prometheus-node-exporter
+```
+- ubah pada bagian "job_name"
+```
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  # Monitor Apache server
+  - job_name: 'apache'
+    static_configs:
+      - targets: ['localhost:80']
+    metrics_path: '/server-status'
+    params:
+      auto: ['']
+
+  # Monitor Node Exporter
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['localhost:9100']
+
+  # Monitor Prometheus itself
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+```
+
+**Langkah 4:Konfigurasi Apache untuk mengekspos metrics**
+```
+sudo nano /etc/apache2/mods-available/status.conf
+```
+- <Location "/server-status">
+    SetHandler server-status
+    Require local
+</Location>
+
+**Langkah 5:
