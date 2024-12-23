@@ -191,7 +191,7 @@ sudo nano /var/www/server1/testredis.php
 - isikan:
   ```
   <?php $redis = new Redis();
-   $redis->connect('127.0.0.1', 6379);
+   $redis->connect(ip server, 6379);
    echo "Koneksi Redis berhasil";
   ?>
   ```
