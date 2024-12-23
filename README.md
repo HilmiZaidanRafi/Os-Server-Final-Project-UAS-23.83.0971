@@ -148,7 +148,7 @@ sudo systemctl status prometheus
 sudo systemctl status grafana-server
 sudo systemctl status prometheus-node-exporter
 ```
-# 1. Installasi Redis
+# 4. Installasi Redis
 **Langkah 1: Apdet Paket**
 ```
 sudo apt update
