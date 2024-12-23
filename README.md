@@ -135,12 +135,12 @@ sudo a2enmod status
 sudo systemctl restart apache2
 ```
 
-**Langkah 6:Restart Layanan
+**Langkah 6:Restart Layanan**
 ```
 sudo systemctl restart prometheus
 ```
 
-*Langkah 7:Verifikasi Status Layanan
+**Langkah 7:Verifikasi Status Layanan**
 ```
 sudo systemctl status prometheus
 sudo systemctl status grafana-server
