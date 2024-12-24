@@ -20,6 +20,11 @@
 ##Progres 5:
 - Senin,23 Desember 2024:Installasi prometheus dan redis
 
+## Spesifikasi server:
+- Ubuntu server 24.04.1
+- Processor 4 core
+- Storage 55 GB
+
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-installasi-grafana)
