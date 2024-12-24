@@ -4,10 +4,19 @@
 - Kelas:23TK01
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
-# Spesifikasi:
- - Ubuntu Server-24.04.1
- - Processor 3 
- - Storage 55gb
+##Progres 1:
+- Sabtu,30 November 2024:Instalasi 5 layanan server pada ubuntu server dan penentuan judul website (Penjualan Tiket Konser)
+  
+##Progres 2:
+- Minggu,8 Desember 2024:Pembuatan Website
+- Selasa,10 Desember 2024:Publikasi Website Di github
+  
+##Progres 3:
+- Rabu,18 Desember 2024:Installasi layanan server apache2 dan publikasi
+##Progres 4:
+- Minggu,22 Desember 2024:Installasi grafana
+##Progres 5:
+- Senin,23 Desember 2024:Installasi prometheus dan redis
 
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
