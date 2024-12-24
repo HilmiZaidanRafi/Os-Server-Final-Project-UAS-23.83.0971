@@ -14,7 +14,9 @@
 ##Progres 3:
 - Rabu,18 Desember 2024:Installasi layanan server apache2 dan publikasi
 ##Progres 4:
+
 - Minggu,22 Desember 2024:Installasi grafana
+- 
 ##Progres 5:
 - Senin,23 Desember 2024:Installasi prometheus dan redis
 
