@@ -4,7 +4,7 @@
 - Kelas:23TK01
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
-#Spesifikasi:
+# Spesifikasi:
  -Ubuntu Server-24.04.1 
 
 ## Daftar Isi
