@@ -26,10 +26,10 @@
 - Storage 55 GB
 
 ## Daftar Isi
-1. [Installasi APACHE2](#1-installasi-apache2)
-2. [Installasi GRAFANA](#2-installasi-grafana)
-3. [Installasi PROMETHEUS](#3-installasi-prometheus)
-4. [Installasi REDIS](#4-installasi-redis)
+1. [Installasi APACHE2](#1-installasi-apache2) Web Server
+2. [Installasi GRAFANA](#2-installasi-grafana) Monitoring
+3. [Installasi PROMETHEUS](#3-installasi-prometheus) Monitoring dan Alerting
+4. [Installasi REDIS](#4-installasi-redis) Penyimpanan Sementara
 
 # 1. Installasi APACHE2
 ### 1. Instalasi
