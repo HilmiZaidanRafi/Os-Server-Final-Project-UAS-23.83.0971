@@ -27,9 +27,9 @@
 
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2) Web Server
-2. [Installasi GRAFANA](#2-installasi-grafana) Monitoring
+2. [Installasi GRAFANA](#2-installasi-grafana) Monitoring Performa
 3. [Installasi PROMETHEUS](#3-installasi-prometheus) Monitoring dan Alerting
-4. [Installasi REDIS](#4-installasi-redis) Penyimpanan Sementara
+4. [Installasi REDIS](#4-installasi-redis) Mengoptimalkan Kecepatan Akses
 
 # 1. Installasi APACHE2
 ### 1. Instalasi
