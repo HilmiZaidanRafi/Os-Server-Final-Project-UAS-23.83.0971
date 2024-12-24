@@ -5,7 +5,9 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 # Spesifikasi:
- -Ubuntu Server-24.04.1 
+ -Ubuntu Server-24.04.1
+ -Processor 3 
+ -Storage 55gb
 
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
