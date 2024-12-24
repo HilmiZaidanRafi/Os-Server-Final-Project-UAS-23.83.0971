@@ -4,6 +4,9 @@
 - Kelas:23TK01
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
+#Spesifikasi:
+-Ubuntu Server-24.04.1 
+
 ## Daftar Isi
 1. [Installasi APACHE2](#1-installasi-apache2)
 2. [Installasi GRAFANA](#2-installasi-grafana)
